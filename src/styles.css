@@ -44,10 +44,10 @@ button:focus{
   display: flex;
   flex-wrap: wrap;
 }
-@media only screen and(max-width: 800px){
-  .row {
+
+@media only screen and (max-width: 800px){
+  .container .row {
     flex-direction: column;
-    border: 5px solid red;
   }
   
 }
